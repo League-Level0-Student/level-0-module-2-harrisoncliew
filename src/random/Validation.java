@@ -23,6 +23,46 @@ public class Validation {
 			JOptionPane.showMessageDialog(null, "You're kind!");
 		}else if (randomNumber==2) {
 			JOptionPane.showMessageDialog(null, "You're smart");
+		}else if (randomNumber==3) {
+			JOptionPane.showMessageDialog(null, "You're responsible!");
+		}else {
+			JOptionPane.showMessageDialog(null, "You're are a quick thinker!");
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 		}
 		
 
