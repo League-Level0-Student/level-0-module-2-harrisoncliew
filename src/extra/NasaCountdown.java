@@ -27,11 +27,15 @@ public class NasaCountdown {
 		
 		
 		// 1. Print a countdown from 10 to 0 on the console
-		for (int i = co; i > -1; i--) {
+		for (int i = co; i > 0; i--) {
 			System.out.println(i);
+			speak(i + " ");
+			Thread.sleep(1000);
 		}
+		speak("blastoff!");
 	
 			// 4. Use the speak method to hear the countdown.
+		
 		
 			// 6. Use the following code to make the program wait one second for each number: Thread.sleep(1000);
 		
